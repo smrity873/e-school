@@ -41,11 +41,49 @@ button {
     margin-top: 16px;
 }
 
-.container{
+.container {
     width: 1080px;
     margin: 0 auto;
 }
 
-p{
+p {
     line-height: 20px;
+}
+
+.option {
+    background-color: #F8FFFB;
+    padding: 60px auto;
+}
+
+.op-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.t-1 {
+    color: #413960;
+    background-color: #F0FFF0;
+}
+
+.te-1 {
+    color: #585859;
+}
+
+.text1, .text2, .text3, .text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-16 {
+    margin-top: 16px;
+
+}
+
+.fs-24 {
+    font-size: 24px;
+    color: #413960;
 }
