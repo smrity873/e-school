@@ -39,6 +39,7 @@ button {
     border-radius: 33px;
     border: none;
     margin-top: 16px;
+    font-family: roboto;
 }
 
 .container {
@@ -51,7 +52,6 @@ p {
 }
 
 .option {
-    background-color: #F8FFFB;
     padding: 60px auto;
 }
 
@@ -62,20 +62,26 @@ p {
     margin-top: 60px;
 }
 
-.t-1 {
-    color: #413960;
-    background-color: #F0FFF0;
-}
-
-.te-1 {
-    color: #585859;
-}
-
-.text1, .text2, .text3, .text4 {
+.text1,
+.text2,
+.text3,
+.text4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #413960;
+    background-color: #F0FFF0;
+    padding: 16px;
+
+}
+
+.text1:hover,
+.text2:hover,
+.text3:hover,
+.text4:hover {
+    box-shadow: #585859 1px 2px 5px 1px;
+    background-color: aqua;
 }
 
 .mt-16 {
@@ -86,4 +92,130 @@ p {
 .fs-24 {
     font-size: 24px;
     color: #413960;
+}
+
+.fs-16 {
+    font-size: 16px;
+    color: #585859;
+}
+
+.textnew {
+    color: #413960;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.newoption {
+    padding: 60px auto;
+    background-color: #FFF;
+}
+
+.op-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.morder1,
+.morder2,
+.morder3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #F0FFf0;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.morder1:hover,
+.morder2:hover,
+.morder3:hover {
+    box-shadow: #585859 1px 2px 5px 1px;
+}
+
+.mt2-1 {
+    margin-top: 16px;
+}
+
+.textn1 {
+    color: #413960;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.textn2 {
+    color: #585859;
+    margin-top: 3px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.gap-16 {
+    gap: 4px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.lasttext {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 40px;
+}
+
+.man {
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image {
+    border-radius: 120px;
+}
+
+.ttt {
+    color: black;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-f {
+    background-color: #282531;
+    height: 220px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.copyr {
+    color: #CDCDCD;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
 }
