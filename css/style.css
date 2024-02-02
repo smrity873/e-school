@@ -219,3 +219,51 @@ p {
     text-align: center;
     margin-top: 30px;
 }
+
+
+.logo>p {
+    color: #413960;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav{
+    padding: 20px 0;
+    background-color: #F0FFF0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#btn{
+    color: #FFFFFF;
+    padding: 16px 40px;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    margin-top: 0;
+    font-family: roboto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
